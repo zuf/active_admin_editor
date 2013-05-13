@@ -7406,8 +7406,9 @@ wysihtml5.Commands = Base.extend(
 
       image = doc.createElement(NODE_NAME);
 
-      for (i in value) {
+      for (i in value) {        
         image[i] = value[i];
+        console.log(i+": "+image[i]);
       }
 
       composer.selection.insertNode(image);
