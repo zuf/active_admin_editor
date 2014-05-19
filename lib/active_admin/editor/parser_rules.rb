@@ -69,7 +69,13 @@ module ActiveAdmin
         'wysiwyg-text-align-center' => 1,
         'wysiwyg-text-align-justify' => 1,
         'wysiwyg-text-align-left' => 1,
-        'wysiwyg-text-align-right' => 1
+        'wysiwyg-text-align-right' => 1,
+        'background' => 1,
+        'special-article-block' => 1,                    
+        'special-block-location-center' => 1,        
+        'special-block-location-left' => 1,
+        'special-block-location-right' => 1,
+        'special-block-title' => 1
       },
       # Tag list
       #

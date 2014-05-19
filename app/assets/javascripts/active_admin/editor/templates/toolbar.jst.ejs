@@ -15,6 +15,11 @@
     <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h4">h4</a></li>
     <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h5">h5</a></li>
     <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="blockquote">blockquote</a></li>    
+    <li><a data-wysihtml5-command="insertHTML" data-wysihtml5-command-value="<div class='special-article-block special-block-location-center background'><div class='special-block-title'><h3>Title</h3></div><div class='special-article-block-inner'><p>Text</div></div>">Full incut</a></li>
+    <li><a data-wysihtml5-command="insertHTML" data-wysihtml5-command-value="<div class='special-article-block special-block-location-left background'><div class='special-block-title'><h3>Title</h3></div><div class='special-article-block-inner'><p>Text</div></div>">Left incut</a></li>
+    <li><a data-wysihtml5-command="insertHTML" data-wysihtml5-command-value="<div class='special-article-block special-block-location-right background'><div class='special-block-title'><h3>Title</h3></div><div class='special-article-block-inner'><p>Text</div></div>">Right incut</a></li>    
+    <li><a data-wysihtml5-command="insertHTML" data-wysihtml5-command-value="<img src='/assets/flood/image_125.jpg' class='image-location-left' alt=''>'></a></li>
+    <li><a data-wysihtml5-command="customClassInline" data-wysihtml5-command-value="bbb">customClassInline</a></li>
   </ul>
 
   <div class="dialog" data-wysihtml5-dialog="createLink" style="display: none;">
@@ -42,10 +47,15 @@
       Align:
       <select data-wysihtml5-dialog-field="className">
         <option value="">default</option>
-        <option value="wysiwyg-float-left">left</option>
-        <option value="wysiwyg-float-right">right</option>
+        <option value="image-location-center">full center</option>
+        <option value="image-location-left">half left</option>
+        <option value="image-location-right">half right</option>
+        <!-- <option value="wysiwyg-float-left">left</option>
+        <option value="wysiwyg-float-right">right</option> -->
       </select>
     </label>
+    <div style="clear: both;"></div>
+    <div class="dialog-gallery"></div>
     <div style="clear: both;"></div>
   </div>
   
